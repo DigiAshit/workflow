@@ -1,691 +1,159 @@
-# Search Console Intelligence System Blueprint
+# Search Behaviour Operating System Blueprint
 
 ## Overview
 
-This blueprint outlines a high-level SEO intelligence system powered by Google Search Console (GSC), semantic analysis, intent mapping, CTR modelling, and AI visibility optimisation.
+This blueprint outlines an advanced Search Behaviour Operating System powered by Google Search Console (GSC), semantic analysis, intent mapping, business value modelling, and site quality governance.
 
-The goal is to transform raw search data into strategic growth decisions.
+The goal is to move beyond finding "SEO opportunities" to providing a "prioritised action system" that dictates exact execution intelligence based on commercial impact.
 
 ---
 
 # Core Philosophy
 
-Most SEO reporting tools only show metrics.
-
-This system should:
-- diagnose search performance problems
-- identify opportunity patterns
-- prioritise highest-impact actions
-- recommend execution strategies
-- support AI citation visibility
-- detect intent mismatches
-- automate growth discovery
-
----
-
-# System Architecture
-
-## Core Engines
-
-1. Query Opportunity Engine
-2. Intent Mismatch Engine
-3. CTR Intelligence Engine
-4. Content Gap Engine
-5. Query Clustering Engine
-6. Freshness Decay Engine
-7. URL Structure Intelligence
-8. Internal Linking Engine
-9. AI Citation Opportunity Engine
-10. Priority Scoring Engine
+Not all traffic matters. Not all rankings matter.
+This system focuses on **DECISIONS** rather than reports.
+Every output must answer:
+1. What should be done?
+2. Why does it matter?
+3. Expected impact?
+4. Business value?
+5. Effort required?
+6. Exact implementation?
 
 ---
 
-# STEP 1 — USER INPUT COLLECTION
+# 5 Master Decision Systems
 
-## Required Inputs
+Everything collapses into these 5 primary systems.
 
-### Google Search Console Export
-Required fields:
-- Query
-- URL
-- Clicks
-- Impressions
-- CTR
-- Position
+## A. Traffic Growth System
+**Purpose:** Increase impressions + rankings.
+**Includes:**
+- Quick wins
+- Hidden demand
+- Query expansion
+- Page 2 opportunities
+- Topical authority growth
+**Output:** "These 7 actions will increase traffic fastest."
 
-### Website Sitemap
-Required:
-- XML sitemap
-- URL structure
+## B. CTR / SERP Win System
+**Purpose:** Increase clicks without rankings changing.
+**Includes:**
+- Title optimisation
+- Meta analysis
+- SERP formatting
+- Emotional modifiers
+- Intent alignment
+- Snippet gaps
+**Output:** "These pages are leaking clicks."
 
-### Analytics Data (Optional but Recommended)
-Examples:
-- Bounce rate
-- Session duration
-- Conversion rate
+## C. Google Trust System
+**Purpose:** Understand what Google trusts.
+**Includes:**
+- Query diversification
+- Query drift
+- Impression expansion
+- Semantic breadth
+- Testing detection
+**Output:** "Google increasingly trusts this topic cluster."
 
-### Competitor URLs (Optional)
-Useful for:
-- content gap analysis
-- semantic comparison
-- SERP pattern analysis
+## D. Content Investment System
+**Purpose:** Tell the business WHAT content to create next.
+**Includes:**
+- Rewarded page analysis
+- Page-type preference
+- Cluster expansion
+- Topic adjacency
+- Informational-commercial hybrids
+**Output:** "Build these 5 pages next."
 
----
-
-# STEP 2 — DATA CLEANING
-
-## Tasks
-
-- Remove duplicate rows
-- Standardise URLs
-- Normalise query formatting
-- Detect URL parameter issues
-- Merge similar query variations
-
-## Example
-
-Merge:
-- polished concrete
-- polished concrete floor
-- polished concrete flooring
-
-Into semantic relationships.
-
----
-
-# STEP 3 — QUERY INTELLIGENCE CATEGORIES (THE NEXT LAYER)
-
-## Objective
-
-Instead of a single filter, create multiple "opportunity buckets" representing distinct SEO strategies.
+## E. Authority Flow System
+**Purpose:** Redistribute ranking power strategically.
+**Includes:**
+- Internal linking
+- Authority hubs
+- Donor pages
+- Recipient pages
+- Semantic link pathways
+**Output:** "These pages should support these pages."
 
 ---
 
-## 1. QUICK WIN QUERIES (Highest ROI)
+# Additional Intelligence Layers (Subsystems)
 
-### Conditions
-- **Position**: 5–20
-- **Impressions**: High (Top 25% of dataset)
-- **CTR**: Below benchmark for position
-- **URL**: Already relevant to the query
+## 1. Business Value & Commercial Intent Scoring
+**Purpose:** Ensure the system thinks like a business owner, not just an SEO.
+- **Commercial Intent Scoring:** Queries containing "pricing", "quote", "company", "near me", "service", "best", "cost", "repair", "hire" get a massive priority boost.
+- **Lead Potential Modelling:** Estimate probable lead intent, business value, and funnel stage.
 
-### Meaning
-Google already partially trusts the page. Small technical or content refinements can trigger large traffic gains.
-**Strategy**: Title/Meta optimization, content refresh, and internal linking.
+## 2. Implementation Readiness & Execution Intelligence
+**Purpose:** Move from "Add FAQs" to exact implementation details.
+- Exact FAQ suggestions
+- Exact anchor suggestions
+- Exact internal linking placements
+- Exact missing entities
+- Exact heading recommendations
+- Exact title rewrites
+- Exact semantic gaps
 
----
+## 3. Semantic Internal Link Modelling & Authority Hub Detection
+- Analyse semantic overlap, shared queries, shared entities, ranking adjacency, and authority concentration.
+- Suggest exact paragraph, anchor, donor, and recipient for internal links.
+- Identify **Authority Hubs** (e.g., a Pricing Guide) and expand clusters around them, distribute links from them, and connect service intent underneath them.
 
-## 2. HIDDEN DEMAND QUERIES (Underrated Opportunity)
+## 4. Content Format Intelligence
+**Purpose:** Detect formatting that Google is rewarding.
+- Winning pages use: pricing tables, calculators, FAQs, comparisons, summaries, trust indicators, step-by-step flows, image sequences, examples.
+- Recommend specific structural upgrades.
 
-### Conditions
-- **Impressions**: Growing or stable
-- **Clicks**: Low
-- **Position**: 15–40
-- **Targeting**: Query not directly addressed in H1 or Title
+## 5. User Journey Modelling
+**Purpose:** Model content journeys and internal funnel flow.
+- E.g., Pricing guide → comparison page → service page → quote page.
+- Track informational → transactional transitions (SEO + CRO combined).
 
-### Meaning
-Google is "experimenting" with your page for these terms. It suggests relevance even without explicit targeting.
-**Strategy**: Optimize existing sections, add dedicated subsections, or create new child pages.
+## 6. Index Quality Engine (Index Hygiene Analysis)
+**Purpose:** Act as a technical SEO intelligence layer to protect crawl efficiency and topical clarity.
+- **Indexed Junk URLs:** `/wp-content/`, `/wp-includes/`, tags, authors, pagination, attachments, parameters.
+- **Thin Indexed Pages:** doorway pages, duplicate locations, weak service pages.
+- **Orphan Indexed Pages:** indexed but no internal links or sitemap inclusion.
+- **Soft Duplicate URLs:** trailing slashes, parameters.
+- **Indexed Assets:** JS/CSS, images, CDN URLs.
+- **Zombie Pages:** Zero clicks, near-zero impressions, no links, no conversions. Classify them to keep, merge, noindex, redirect, or delete.
+- **Crawl Waste Detection:** Stop Googlebot from wasting crawl budget on junk URLs. Recommend noindex, robots disallow, canonicals, redirects, etc.
 
----
+## 7. Site Quality Scoring
+Score the site across areas like:
+- Crawl Quality
+- Index Hygiene
+- Semantic Depth
+- Intent Alignment
+- Internal Authority Flow
+- CTR Efficiency
 
-## 3. HIGH-IMPRESSIONS / NO-CLICK QUERIES (Diagnosis Engine)
+## 8. Content-to-Title Consistency Analysis
+- Does the title promise something the content does not satisfy? (e.g., Title says "2026 Complete Cost Guide" but content has no pricing or tables).
+- A mismatch causes low engagement and weak long-term rankings.
 
-### Conditions
-- **Impressions**: Massive
-- **Clicks**: Near-zero
-- **Position**: Variable (often Top 10)
-
-### Diagnosis Factors
-- **Bad Title**: Boring or irrelevant snippet.
-- **Weak Intent Match**: Page is a service page, but SERP prefers a blog/guide.
-- **Answer Box Proximity**: Google answers the query instantly in the SERP.
-- **Low Commercial Appeal**: High volume but purely informational "what is" queries.
-
-**Strategy**: Add pricing sections, cost calculators, or pivot content to match SERP intent.
-
----
-
-## 4. POSITION 11–15 “PAGE 2 EDGE”
-
-### Conditions
-- **Position**: 11–15
-- **Rankings**: Consistent over time
-- **Intent**: High-value commercial or informational
-
-### Meaning
-Tiny improvements can move you from "invisible" (Page 2) to "high traffic" (Page 1).
-**Strategy**: Improve topical depth, add LSI entities, optimize headings, and add FAQs.
-
----
-
-## 5. POSITION DROPPING QUERIES (Decay Detection)
-
-### Conditions
-- **Impressions**: Falling
-- **Avg Position**: Worsening
-- **Clicks**: Declining
-
-### Diagnosis
-- **A. Freshness Decay**: Content is outdated compared to new competitors.
-- **B. Intent Shift**: SERP results changed from "guides" to "product pages".
-- **C. Competitor Outranking**: Competitors added more depth or better structured data.
+## 9. Semantic Coverage Validation
+- Before recommending titles or target queries, check if the page actually covers the semantic entities required (e.g., "insurance car respray" needs to mention insurance, claims, excess fees, approved repairers).
 
 ---
 
-# STEP 4 — COMPETITOR & SERP INTELLIGENCE
+# The Correct Execution Workflow
 
-## Workflow
+**Site-State-First Thinking:** Recommendations must never happen in isolation. You must understand crawl quality, architecture, content alignment, and internal relevance before suggesting any changes.
 
-1. **Query Selection**: Identify top queries from the Opportunity Buckets.
-2. **SERP Analysis**:
-    - Perform Google Search for target queries.
-    - Analyze top 3-5 competitors for **Intent Match**.
-    - Compare Competitor Titles vs. Client Titles.
-3. **On-Page Audit**:
-    - Visit competitor pages.
-    - Identify content sections missing on Client page.
-    - Take screenshots of layouts rewarded by Google.
-4. **Diagnosis**: Determine if Google is rewarding "Guides" (e.g., 2025 Price Guide) over "Service Pages".
+### Step 1 — Query Analysis
+Understand query intent, opportunity, CTR weakness, and commercial value.
 
----
+### Step 2 — Page Analysis
+Analyse current title, H1, headings, entities, semantic coverage, topical depth, missing sections, CTA structure, internal links, and content freshness.
 
-# STEP 5 — REWARDED PAGE INTELLIGENCE
+### Step 3 — URL Analysis
+Check slug relevance, keyword alignment, folder hierarchy, cannibalisation risk, excessive nesting, and dynamic parameters.
 
-## Objective
+### Step 4 — SERP Comparison
+Compare against winners: titles, metas, headings, layout, structure, content depth, formatting, and intent model.
 
-Identify which specific pages Google is "promoting" based on click-through performance and suggest content expansion.
-
-## Detection
-- **GSC Metric**: Pages where Clicks > Homepage Clicks for specific clusters.
-- **Example**: If a "2025 Price Guide" blog gets 3x more traffic than the Home page, the guide is the new "Authority Hub".
-
-## Action
-- Create more content around the rewarded theme.
-- Convert the rewarded page into a "Pillar Page".
-- Support other service pages via internal linking from this high-traffic asset.
-
----
-
-# STEP 6 — INTERNAL LINKING OPPORTUNITIES
-
-## Logic
-- **High Click Pages** (The Donors) support **High Impression / Low Click Pages** (The Recipients).
-- Link from pages with Avg Position < 20 (Low-hanging fruit) to target pages.
-- Use exact-match or semantically rich anchor text from "The Next Layer" queries.
-
----
-
-# SOURCES OF INTELLIGENCE
-
-The methodologies in this system are derived from established SEO leadership and Google’s own ranking signals:
-
-1. **Ahrefs / Backlinko**: The "Low Hanging Fruit" (Pos 5-20) prioritization framework.
-2. **Growth Memo (Kevin Indig)**: Content decay models and "Hidden Demand" detection.
-3. **Google Search Central**: Documentation on "Helpful Content" and intent-based ranking.
-4. **Moz / Search Engine Land**: Internal link authority flow and "Pillar-Cluster" architecture.
-5. **Search Engine Journal**: SERP intent shift analysis (Informational vs. Transactional).
-
----
-
-
-## Detection Logic
-
-Compare:
-- Actual CTR
-- Expected CTR for ranking position
-
----
-
-## Example
-
-| Position | Expected CTR |
-|---|---|
-| 1 | 28% |
-| 3 | 11% |
-| 5 | 6% |
-| 8 | 3% |
-
-If actual CTR is far below expected:
-- title likely weak
-- meta description weak
-- SERP mismatch
-- poor keyword alignment
-
----
-
-# STEP 5 — TITLE TAG ANALYSIS
-
-## Detect Issues
-
-### Missing Primary Keywords
-
-Example:
-Query:
-- concrete grinding christchurch
-
-Title:
-- Professional Surface Solutions
-
-Issue:
-Weak alignment.
-
----
-
-## Missing Commercial Modifiers
-
-Examples:
-- affordable
-- trusted
-- certified
-- local
-- free quote
-- best
-
----
-
-## Missing Freshness Signals
-
-Important for:
-- AI
-- SEO
-- finance
-- technology
-- legal
-
-Example:
-- Best SEO Strategies for 2026
-
----
-
-## SERP Pattern Comparison
-
-Compare:
-- competitor titles
-- formatting patterns
-- numbers
-- years
-- brackets
-- emotional triggers
-
----
-
-# STEP 6 — META DESCRIPTION ANALYSIS
-
-## Detect
-
-- duplicate metas
-- missing CTAs
-- truncation risk
-- no keyword reinforcement
-- weak emotional hooks
-- generic AI-generated wording
-
----
-
-# STEP 7 — INTENT MISMATCH ENGINE
-
-## Objective
-
-Detect when the page intent does not match Google's preferred SERP intent.
-
----
-
-# Intent Categories
-
-| Intent Type | Example |
-|---|---|
-| Informational | what is polished concrete |
-| Commercial | best polished concrete company |
-| Transactional | hire polished concrete service |
-| Comparison | epoxy vs polished concrete |
-| Local | concrete polishing near me |
-| Visual | polished concrete ideas |
-
----
-
-# Detection Examples
-
-## Example
-
-Query:
-- best concrete polish
-
-Current page:
-- service page
-
-SERP intent:
-- comparison articles
-
-Recommendation:
-- create comparison article
-- add educational comparison section
-- split search intent
-
----
-
-# STEP 8 — CONTENT GAP ENGINE
-
-## Objective
-
-Compare page depth against competitors.
-
----
-
-# Detect Missing Topics
-
-Examples:
-- dust-free grinding
-- epoxy preparation
-- machinery types
-- commercial applications
-- pricing guidance
-
----
-
-# Outputs
-
-## Recommendations
-
-- Add new sections
-- Add FAQs
-- Add tables
-- Add visual examples
-- Add process explanations
-- Add comparison blocks
-
----
-
-# STEP 9 — QUERY CLUSTER ENGINE
-
-## Purpose
-
-Group semantically related queries.
-
----
-
-# Example Cluster
-
-Queries:
-- garage floor polishing
-- polished concrete garage
-- garage polished flooring
-
-Cluster:
-- Garage Polished Concrete
-
----
-
-# Recommendations
-
-Possible outputs:
-- dedicated page
-- dedicated section
-- child page creation
-- supporting blog content
-
----
-
-# STEP 10 — CANNIBALISATION DETECTION
-
-## Detect
-
-Multiple URLs ranking for similar intent clusters.
-
----
-
-# Example
-
-| URL | Overlap |
-|---|---|
-| /concrete-polishing | 60% |
-| /polished-concrete | 55% |
-
----
-
-# Recommendations
-
-- consolidate pages
-- canonical setup
-- restructure internal linking
-- merge overlapping content
-
----
-
-# STEP 11 — FRESHNESS DECAY ENGINE
-
-## Purpose
-
-Detect declining relevance.
-
----
-
-# Signals
-
-| Signal | Meaning |
-|---|---|
-| Falling impressions | relevance decay |
-| Falling CTR | snippet weakness |
-| Position decline | competitor improvement |
-| Reduced query diversity | authority loss |
-
----
-
-# Refresh Recommendation Types
-
-## Minor Refresh
-- title update
-- FAQ addition
-- schema updates
-
-## Medium Refresh
-- content expansion
-- updated examples
-- updated statistics
-
-## Major Refresh
-- rewrite
-- intent restructuring
-- page split
-
----
-
-# STEP 12 — URL STRUCTURE ENGINE
-
-## Detect Problems
-
-### Weak Slugs
-
-Bad:
-- /services/page1
-
-Better:
-- /concrete-grinding-christchurch
-
----
-
-## Keyword Mismatch
-
-Page ranks for:
-- epoxy garage floor
-
-URL:
-- /resin-solutions
-
----
-
-## Folder Structure Issues
-
-Bad:
-- /blog/service/concrete-polishing
-
-Better:
-- /services/concrete-polishing
-
----
-
-# STEP 13 — INTERNAL LINK ENGINE
-
-## Detect
-
-- orphan pages
-- weak authority flow
-- missing anchor text opportunities
-- weak commercial link pathways
-
----
-
-# Recommendations
-
-- contextual internal links
-- stronger anchor text
-- topical hub structures
-- service-to-blog linking
-
----
-
-# STEP 14 — AI CITATION ENGINE
-
-## Purpose
-
-Increase visibility in AI-generated answers.
-
----
-
-# AI-Friendly Signals
-
-Pages containing:
-- concise definitions
-- step-by-step explanations
-- tables
-- FAQs
-- comparisons
-- expert summaries
-- entity clarity
-
----
-
-# Missing Structures
-
-Detect absence of:
-- FAQ schema
-- definition blocks
-- comparison tables
-- summary sections
-- author credibility
-- structured answers
-
----
-
-# STEP 15 — PRIORITY SCORING ENGINE
-
-## Purpose
-
-Prioritise actions by impact.
-
----
-
-# Scoring Factors
-
-| Factor | Purpose |
-|---|---|
-| Traffic potential | growth opportunity |
-| Difficulty | implementation complexity |
-| Confidence | probability of success |
-| Revenue intent | commercial value |
-| Resource cost | execution effort |
-
----
-
-# Example Prioritisation
-
-| Opportunity | Impact | Effort |
-|---|---|---|
-| Title refresh | High | Low |
-| FAQ schema | Medium | Low |
-| Intent split | Very High | Medium |
-| Full rewrite | High | High |
-
----
-
-# PRODUCTISED SERVICES
-
-## GSC Opportunity Audit
-Potential pricing:
-- £300–£1,500
-
----
-
-## AI Visibility Audit
-Potential pricing:
-- £500–£2,000
-
----
-
-## CTR Optimisation Sprint
-Monthly optimisation service.
-
----
-
-## Search Intent Restructuring
-High-ticket SEO consulting.
-
----
-
-## Topical Authority Mapping
-Enterprise SEO service.
-
----
-
-# AUTOMATION IDEAS
-
-## Suggested Automations
-
-### Weekly
-- query opportunity scans
-- CTR drop alerts
-- ranking movement detection
-
-### Monthly
-- freshness decay analysis
-- AI citation analysis
-- internal link opportunity updates
-
-### Quarterly
-- full content architecture review
-- intent restructuring audit
-
----
-
-# FUTURE EXPANSION IDEAS
-
-## Advanced Features
-
-- NLP semantic entity scoring
-- competitor semantic modelling
-- AI answer retrieval prediction
-- local intent intelligence
-- YouTube search opportunity mapping
-- Reddit intent mining
-- Google Discover opportunity analysis
-
----
-
-# FINAL STRATEGIC POSITIONING
-
-This system should position the agency as:
-
-- Search Intelligence Partner
-- AI Visibility Consultant
-- SEO Diagnostics Specialist
-- Organic Growth Strategist
-
-The real value is not keyword discovery.
-
-The real value is understanding:
-- how Google interprets trust
-- how intent shifts
-- how freshness impacts visibility
-- how AI systems retrieve content
-- how to convert search signals into business growth
-
+### Step 5 — Recommend
+Only after Steps 1-4, make context-aware, highly intelligent recommendations.
