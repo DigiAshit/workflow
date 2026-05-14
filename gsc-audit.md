@@ -137,6 +137,21 @@ Score the site across areas like:
 ## 9. Semantic Coverage Validation
 - Before recommending titles or target queries, check if the page actually covers the semantic entities required (e.g., "insurance car respray" needs to mention insurance, claims, excess fees, approved repairers).
 
+## 10. Momentum & Trajectory Engine (Search Console Clarity)
+**Purpose:** Identify the velocity of queries and pages over time to allocate resources effectively. Categorise performance into a clear table to show what is growing, flatlining, or decaying.
+
+| Trajectory | Queries | Pages | Recommended Action |
+| :--- | :--- | :--- | :--- |
+| **Gaining Traction** | High-impression growth, improving positions. | Rising traffic, increased keyword footprint. | Double down: Add internal links, expand content depth. |
+| **Stable** | Consistent volume, sticky rankings. | Flat traffic, steady conversions. | Maintain: Monitor for SERP feature changes or CTR decay. |
+| **Slowing** | Dropping impressions, losing rank positions. | Bleeding traffic, loss of semantic relevance. | Intervene: Refresh content, check for cannibalisation or technical issues. |
+
+## 11. Competitor Sitemap & Content Gap Engine
+**Purpose:** Look beyond the single query being researched to uncover the competitor's broader traffic strategy.
+- **Action:** Extract and parse the target competitor's XML sitemap.
+- **Discovery:** Identify what else they are doing (e.g., specific blog clusters, glossary pages, programmatic service areas).
+- **Output:** "This competitor is also capturing traffic with these 5 related content hubs. We should build similar assets to attract more traffic."
+
 ---
 
 # The Correct Execution Workflow
@@ -152,8 +167,13 @@ Analyse current title, H1, headings, entities, semantic coverage, topical depth,
 ### Step 3 — URL Analysis
 Check slug relevance, keyword alignment, folder hierarchy, cannibalisation risk, excessive nesting, and dynamic parameters.
 
-### Step 4 — SERP Comparison
-Compare against winners: titles, metas, headings, layout, structure, content depth, formatting, and intent model.
+### Step 4 — Competitor Research & Query Qualification
+Before diving into competitor analysis, the system must evaluate if a query is worth the effort.
+- **Query Qualification:** Tell the user which queries make commercial sense to pursue for competitor research.
+- **User Consent:** Explicitly ask the user: *"Do you want to tap into these queries and proceed with competitor analysis?"*
+- **SERP Comparison:** Once confirmed, compare against winners: titles, metas, headings, layout, structure, content depth, formatting, and intent model.
+- **Actionable Suggestions:** Suggest exact on-page changes based on the current query's intent and competitor gaps.
+- **Broader Discovery:** Trigger the *Competitor Sitemap & Content Gap Engine* to extract their sitemap and reveal what other pages or blogs they are using to attract traffic.
 
 ### Step 5 — Recommend
 Only after Steps 1-4, make context-aware, highly intelligent recommendations.
