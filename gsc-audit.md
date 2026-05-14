@@ -138,13 +138,21 @@ Score the site across areas like:
 - Before recommending titles or target queries, check if the page actually covers the semantic entities required (e.g., "insurance car respray" needs to mention insurance, claims, excess fees, approved repairers).
 
 ## 10. Momentum & Trajectory Engine (Search Console Clarity)
-**Purpose:** Identify the velocity of queries and pages over time to allocate resources effectively. Categorise performance into a clear table to show what is growing, flatlining, or decaying.
+**Purpose:** Identify the velocity of queries and pages over time to allocate resources effectively. Categorise performance into two clear tables to show what is growing, flatlining, or decaying.
 
-| Trajectory | Queries | Pages | Recommended Action |
+### 📊 Query Trajectory Table
+| Trajectory | Query | Metrics | Diagnosis & Recommended Action |
 | :--- | :--- | :--- | :--- |
-| **Gaining Traction** | High-impression growth, improving positions. | Rising traffic, increased keyword footprint. | Double down: Add internal links, expand content depth. |
-| **Stable** | Consistent volume, sticky rankings. | Flat traffic, steady conversions. | Maintain: Monitor for SERP feature changes or CTR decay. |
-| **Slowing** | Dropping impressions, losing rank positions. | Bleeding traffic, loss of semantic relevance. | Intervene: Refresh content, check for cannibalisation or technical issues. |
+| 🟢 **Growing** | *Query example* | *Impressions/Pos* | **Gaining Traction:** High-impression growth, improving positions. Action: Add internal links, expand content depth. |
+| 🟡 **Stable** | *Query example* | *Impressions/Pos* | **Stable:** Consistent volume, sticky rankings. Action: Monitor for SERP feature changes or CTR decay. |
+| 🔴 **Decaying**| *Query example* | *Impressions/Pos* | **Slowing/Decaying:** Dropping impressions, losing rank positions. Action: Intervene with title updates and semantic depth. |
+
+### 📄 Page Trajectory Table
+| Trajectory | Page URL | Metrics | Diagnosis & Recommended Action |
+| :--- | :--- | :--- | :--- |
+| 🟢 **Growing** | `/example-page/` | *Clicks/Imp* | **Gaining Traction:** Rising traffic, increased keyword footprint. Action: Double down, push to Page 1 via internal linking. |
+| 🟡 **Stable** | `/example-page/` | *Clicks/Imp* | **Stable:** Flat traffic, steady conversions. Action: Maintain dominance, update content regularly. |
+| 🔴 **Decaying**| `/example-page/` | *Clicks/Imp* | **Slowing/Decaying:** Bleeding traffic, loss of semantic relevance. Action: Refresh content, check for cannibalisation or technical issues. |
 
 ## 11. Competitor Sitemap & Content Gap Engine
 **Purpose:** Look beyond the single query being researched to uncover the competitor's broader traffic strategy.
