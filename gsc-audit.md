@@ -32,8 +32,10 @@ Everything collapses into these 5 primary systems.
 - Quick wins
 - Hidden demand
 - Query expansion
-- Page 2 opportunities
+- Page 2 and Page 3 opportunities
 - Topical authority growth
+- **Stalled Page & Query Analysis:** Identify pages and queries stuck on page 2 (positions 11-20) and page 3 (positions 21-30). If the number of pages on page 2 is less than 4, suggest CTR improvements based on the queries they are receiving. Also, review their page content, headings, and semantic depth.
+- **Target Expansion:** Increase the number of distinct queries targeting different pages to maximize impression share.
 **Output:** "These 7 actions will increase traffic fastest."
 
 ## B. CTR / SERP Win System
@@ -75,7 +77,7 @@ Everything collapses into these 5 primary systems.
 - Donor pages
 - Recipient pages
 - Semantic link pathways
-**Output:** "These pages should support these pages."
+**Output:** "These pages should support these pages. After reviewing the page content, suggest 10-20 specific, contextual internal links to flow authority appropriately."
 
 ---
 
