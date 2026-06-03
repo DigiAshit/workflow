@@ -1,4 +1,4 @@
-# Search Behaviour Operating System Blueprint
+# Search Behaviour Operating System Blueprint 
 
 ## Overview
 
