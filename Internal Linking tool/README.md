@@ -1,93 +1,94 @@
-# SEO Internal Linking Workflow Playbook
+# V2 Strategic Internal Linking Workflow Playbook
 
-This directory contains a reusable **Claude Skill & Antigravity Workflow** designed to analyze website pages and output high-quality, editor-ready internal linking recommendations.
-
-## What is this Workflow?
-
-Unlike traditional software which requires complex server deployments and database configurations, this is a **playbook and instruction set** that turns any Claude agent (like Claude Code or Antigravity) into a specialized **Internal Linking Strategist**. 
-
-It uses the exact algorithmic formulas, link positioning weights, and 12-tier priorities designed in our core Node.js codebase to perform audits and suggest links directly inside your chat.
+This folder contains a reusable **Claude Skill & Antigravity Workflow** that transforms Claude into an elite senior SEO strategist. The workflow shifts focus entirely from simple keyword-matching to a robust **Intelligence Layer**—optimizing relevance, search intent alignment, user value, and logical topic clustering.
 
 ---
 
-## How the Workflow Operates (Replicated V1 Logic)
+## Strategic Core Principles
 
-When you run this workflow, the AI agent mimics our core Node.js codebase calculations:
-
-### 1. Link Position Power Calculation
-Not all links are created equal. The workflow tracks the position of existing links on a page using the formula:
-$$\text{DOM Position Ratio} = \frac{\text{Link Index}}{\text{Total Links on Page}}$$
-- **Header & Navbar Links (`Ratio` $\le 0.15$):** Earn **0.2** power.
-- **Footer Links (`Ratio` $\ge 0.85$):** Earn **0.1** power.
-- **Main Content Links (`Ratio` between $0.15$ and $0.85$):** Earn **1.0** power.
-
-### 2. Page Classification
-The raw inbound link scores are normalized:
-$$\text{Normalized Score} = \frac{\text{Page Inbound Score} - \text{Min Score}}{\text{Max Score} - \text{Min Score}}$$
-Pages are grouped into:
-- **Orphan Pages:** 0 inbound links (except homepage). Priority action needed!
-- **Strong Pages:** Normalized score $> 0.7$ (these act as authority donor pages).
-- **Normal Pages:** Normalized score between $0.3$ and $0.7$.
-- **Weak Pages:** Normalized score $\le 0.3$ (target pages requiring more link equity).
-
-### 3. The 12-Tier Priority Matrix
-Recommendations are sorted using a 12-tier matrix, matching strong/normal donor pages with weak/orphan target pages:
-- **Priority 1-3:** Links pointing to **Orphan Pages**.
-- **Priority 4-6:** Links pointing to **Weak Pages**.
-- **Priority 7-9:** Links pointing to **Normal Pages**.
-- **Priority 10-12:** Links pointing to **Strong Pages**.
+1. **Quality Over Volume:** An elite link audit rejects the noise. This engine targets a **70% to 90% rejection rate** of raw keyword matches. Only the highest-value, contextual links survive.
+2. **Rejection-First Architecture:** Before a recommendation is made, it must pass 8 distinct quality checks, including **Contradiction Testing** (actively formulating the strongest argument *against* creating the link).
+3. **Auditable Evidence:** Every recommendation is backed by a structured **Evidence Block** listing the specific shared topics, shared entities, and intent indicators that justify the link.
+4. **Value vs. Confidence Decoupling:** We track value (Relevance, SEO Impact, User Value, Conversion Impact) separately from Confidence (data certainty). A link can have massive potential impact but low confidence due to context ambiguity.
 
 ---
 
-## How to Execute the Workflow in Claude
+## The 8-Step Rejection Framework
 
-To execute this workflow, you can feed page metadata directly to Claude.
+Every candidate link must pass at least **7 out of 8 tests** (including mandatory Tests 1, 2, 3, 5, and 8) to be approved:
 
-### Step 1: Copy the Prompt Template
-Use the following prompt to initialize the audit:
+- **Test 1: Topical Relationship (Mandatory):** Do the pages share a clear semantic connection?
+- **Test 2: Intent Relationship (Mandatory):** Are search intents compatible? (e.g., no premature pricing links in early-stage guides).
+- **Test 3: User Value (Mandatory):** Would a human user actually benefit from clicking this link?
+- **Test 4: Editorial Naturalness:** Does the insertion sentence read naturally without feeling forced?
+- **Test 5: Existing Link Check (Mandatory):** Is this link redundant or already present?
+- **Test 6: Anchor Quality:** Is the anchor text descriptive and natural (no repetitive exact-match or generic text)?
+- **Test 7: Cluster Relevance:** Does the link reinforce the primary topic cluster?
+- **Test 8: Contradiction Testing (Mandatory):** Does the supporting evidence outweigh the strongest counter-argument?
+
+---
+
+## How to Execute the V2 Workflow in Claude
+
+### Copy-Paste Prompt Template
+
+To run this workflow on your site's data (HTML pages, sitemaps, or crawl JSON), copy the prompt template below and paste it into your chat session:
 
 ```markdown
-I want you to run an Internal Linking Audit. Please follow the rules defined in the `seo-internal-linking-workflow` skill.
+I want you to run an Internal Linking Audit. Please follow the instructions defined in the `seo-internal-linking-workflow` skill.
 
-Here is the list of pages and their metadata from my website:
+Here is the page data from my website (searchIndex or paragraph crawl):
+[INSERT PAGES OR SEARCH INDEX DATA HERE]
 
----
-URL: /home
-Title: Finance Tips & Tricks
-Description: Your guide to automated personal budgeting and smart saving.
-Links:
-  - href: /about (Position: 1, Total Links: 4, rel: follow)
-  - href: /automated-budgeting (Position: 2, Total Links: 4, rel: follow)
----
-URL: /automated-budgeting
-Title: Complete Guide to Automated Budgeting
-Description: Learn how to set up an automated budget using spreadsheets and tools.
-Links:
-  - href: /home (Position: 1, Total Links: 2, rel: follow)
----
-URL: /saving-strategies
-Title: 10 Savings Strategies that Work
-Description: Simple changes to increase your monthly savings rate.
-Links:
-  - href: /home (Position: 1, Total Links: 2, rel: follow)
----
-URL: /pricing
-Title: Product Pricing Plans
-Description: Compare plans and pricing.
-Links: []
----
-
-Please calculate the link power scores, classify the pages, find matching semantic opportunities (skipping utility/stop pages like /pricing), score them using the 12-tier matrix, and write contextual insertion sentences.
+Please execute the 9-Stage Recommendation Pipeline:
+1. Strip boilerplate, header, and footer text.
+2. Build the relationship engine mapping topic clusters and intent categories.
+3. Apply the 8-Step Rejection Framework (enforcing the 70%-90% rejection rate target).
+4. Run Contradiction Testing for each candidate.
+5. Calculate independent value metrics and separate confidence scores.
+6. Generate natural, editorial-quality insertion sentences with diverse anchors.
+7. Return the final report, including the "Why This Link Exists" Evidence Blocks for approved links and the Rejection Ledger.
 ```
 
-### Step 2: Review the Output Table
-The workflow will generate a clean implementation table:
+---
 
-| Source URL | Target URL | Anchor Text | Suggested Sentence | Priority | Reason |
-| :--- | :--- | :--- | :--- | :---: | :--- |
-| `/saving-strategies` | `/automated-budgeting` | automated budget | "To maximize your savings rate, setting up an [automated budget] can help track expenses without manual intervention." | 5 | Normal-to-Weak semantic flow linking savings to automated budgeting |
+## Report Output Format
 
-### Step 3: Action the Key Sections
-- **Quick Wins:** Immediately copy the High Priority (Priority 1-4) suggestions and paste them into your CMS editor.
-- **Orphan Rescue:** Add links to the flagged Orphan pages first to ensure Google indexes them.
-- **Anchor Variations:** Use the suggested partial-match anchor texts to keep your link profile natural and avoid Google over-optimization penalties.
+The workflow generates two key tables and detailed evidence blocks:
+
+### 1. Approved Recommendations Ledger
+Every approved recommendation includes the complete auditable evidence block:
+
+```markdown
+### 1. Approved Recommendation: /blog/developer-burnout → /features/resource-scheduling
+- **Source URL:** `/blog/developer-burnout`
+- **Target URL:** `/features/resource-scheduling`
+- **Suggested Anchor:** `visual capacity planning tools`
+- **Suggested Sentence:** "To prevent burnout before it starts, managers can use [visual capacity planning tools] to monitor workloads in real-time."
+
+[EVIDENCE & DECISION BLOCK]
+- **Relationship Type:** Supporting Topic / Product Feature Mapping
+- **Intent Relationship:** Informational → Commercial Investigation
+- **User Journey:** Problem Aware (Burnout) → Solution Aware (Workload Management)
+- **Objective Evidence:**
+  - *Shared Topic:* Workload Allocation & Capacity Planning
+  - *Shared Entities:* team capacity, burnout prevention, developer allocation, WIP limits
+  - *Intent Indicators:* Informational search queries about team stress matching feature solutions.
+- **Contradiction Test Objection:** "The user is looking for mental health tips for burnout; pitching a product scheduling feature too early might feel overly transactional."
+- **Contradiction Test Resolution:** "Burnout is structurally caused by overallocation. Introducing a concrete workload management feature provides direct, actionable utility, solving the root cause of the reader's query."
+- **Calculated Scores:**
+  - *Relevance Score:* 85 (Strong alignment between team capacity and developer burnout)
+  - *SEO Impact Score:* 75 (Pushes high blog traffic equity to key product features)
+  - *User Value Score:* 88 (Provides a direct operational fix to the described problem)
+  - *Conversion Impact Score:* 70 (Soft commercial funnel progression)
+  - *Confidence Score:* 90 (High certainty of semantic alignment)
+```
+
+### 2. Rejection Ledger
+All rejected candidate links must be documented to show the audit trail:
+
+| Discovered Opportunity (Source → Target) | Trigger Phrase | Rejection Reason | Tripped Test |
+| :--- | :--- | :--- | :--- |
+| `/blog/security-compliance` → `/pricing` | "pricing structure" | Keyword match only. User intent is security regulation study; linking to product pricing plans disrupts the educational reading flow. | Test 2 (Intent Relationship) - Fail |
+| `/blog/teeth-grinding` → `/services/veneers` | "veneers can restore" | Intent mismatch. Bruxism is a structural disorder. Suggesting cosmetic veneers before stabilizing the grinding habit violates clinical sequencing. | Test 8 (Contradiction Testing) - Fail |
+| `/blog/summer-fashion` → `/products/winter-coat` | "winter clothing storage" | Seasonal relevance mismatch. surufacing a wool winter coat product page to a summer swimwear reader violates current intent. | Test 7 (Cluster Relevance) - Fail |
