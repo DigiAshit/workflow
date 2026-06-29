@@ -1,4 +1,4 @@
-# CrawlBeast - Crawled But Not Indexed Intelligence Workflow
+# Crawled But Not Indexed Intelligence Workflow
 
 ## Overview
 
