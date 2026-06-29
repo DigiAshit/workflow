@@ -407,13 +407,16 @@ Assign a confidence score to each detected cause.
 
 ## High Priority
 
--   Rewrite primary content
--   Expand topical depth
+-   **Rewrite Primary Content:** Provide exact content outlines with H1, H2, and H3 headings.
+-   **Expand Topical Depth:** Add missing sections identified in competitive analysis.
+-   **Improve EEAT:** Interview subject matter experts/technicians to extract real insights and specific questions to add to the page.
+-   **Improve Internal Linking:** Map and include internal links based on the website's sitemap.
+-   **Improve External Linking:** Provide external links based on competitor research in the following priority order:
+    1. Government websites
+    2. Review sites
+    3. Top high authority sites
 -   Improve entity coverage
--   Add missing sections
--   Improve internal linking
 -   Resolve canonical issues
--   Improve EEAT
 -   Add structured data
 
 ## Medium Priority
@@ -465,8 +468,8 @@ Explain why Google is unlikely to index the page.
 
 ## Prioritised Action Plan
 
-  Priority   Recommendation   Reason   Expected Impact   Difficulty
-  ---------- ---------------- -------- ----------------- ------------
+| Priority | Recommendation | Reason | Expected Impact | Difficulty |
+|----------|----------------|--------|-----------------|------------|
 
 ## Success Metrics
 
