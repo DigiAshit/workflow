@@ -1,0 +1,475 @@
+# CrawlBeast - Crawled But Not Indexed Intelligence Workflow
+
+## Overview
+
+This blueprint defines the complete workflow for analysing **Google
+Search Console's "Crawled - Currently Not Indexed"** URLs.
+
+The objective is to identify the most probable reasons Google chose not
+to index a page and provide prioritised, evidence-based recommendations
+to improve its likelihood of being indexed.
+
+The workflow combines:
+
+-   Google's documented indexing guidance
+-   Technical SEO analysis
+-   Content quality evaluation
+-   Semantic SEO analysis
+-   AEO (Answer Engine Optimisation)
+-   GEO (Generative Engine Optimisation)
+-   Competitor intelligence
+-   Search landscape analysis
+
+------------------------------------------------------------------------
+
+# Workflow Architecture
+
+``` text
+Google Search Console
+        │
+        ▼
+Crawled - Currently Not Indexed URL
+        │
+        ▼
+URL Intake
+        │
+        ├───────────────────────────┐
+        ▼                           ▼
+Research Branch A            Research Branch B
+Internal Analysis            Google Search Analysis
+        │                           │
+        └──────────────┬────────────┘
+                       ▼
+             Intelligence Engine
+                       ▼
+             Root Cause Detection
+                       ▼
+            Prioritised Action Plan
+```
+
+------------------------------------------------------------------------
+
+# URL Intake
+
+Collect:
+
+-   URL
+-   Page Type
+-   Index Status
+-   Last Crawl Date
+-   Canonical URL
+-   Sitemap Status
+-   Robots Status
+-   HTTP Status
+-   Internal Link Count
+-   Page Depth
+
+------------------------------------------------------------------------
+
+# Research Branch A -- Internal Analysis
+
+## Objective
+
+Determine whether the page deserves to be indexed.
+
+### Step A1 -- Fetch Page
+
+Extract:
+
+-   Title
+-   Meta Title
+-   Meta Description
+-   Canonical
+-   H1--H6
+-   Main Content
+-   Images
+-   Internal Links
+-   External Links
+-   Structured Data
+-   Author
+-   Published Date
+-   Updated Date
+-   FAQs
+
+### Step A2 -- Technical SEO
+
+Analyse:
+
+-   Indexability
+-   Canonicals
+-   Robots
+-   Redirects
+-   HTTP Status
+-   Duplicate URLs
+-   Near Duplicates
+-   Soft 404s
+-   JavaScript Rendering
+-   Crawl Depth
+-   Internal Linking
+
+Outputs:
+
+-   Technical SEO Score
+-   Indexability Score
+
+### Step A3 -- Content Quality
+
+Evaluate:
+
+-   Originality
+-   Content Depth
+-   Search Intent Alignment
+-   Readability
+-   Topical Completeness
+-   Thin Content
+-   Duplicate Content
+-   Boilerplate Ratio
+-   Helpful Content Signals
+
+Output:
+
+-   Content Quality Score
+
+### Step A4 -- Semantic SEO
+
+Analyse:
+
+-   Entity Coverage
+-   Entity Relationships
+-   Topic Completeness
+-   Semantic Relevance
+-   Missing Concepts
+-   Topical Authority
+
+Output:
+
+-   Semantic Coverage Score
+
+### Step A5 -- AEO
+
+Evaluate:
+
+-   Direct Answers
+-   Definitions
+-   Lists
+-   Tables
+-   Comparisons
+-   FAQs
+-   Examples
+-   Statistics
+-   Follow-up Question Coverage
+
+Output:
+
+-   AEO Score
+
+### Step A6 -- GEO
+
+Evaluate:
+
+-   Knowledge Graph Signals
+-   Citation Potential
+-   Entity Clarity
+-   Evidence
+-   Structured Information
+-   Original Insights
+
+Output:
+
+-   GEO Score
+
+### Step A7 -- EEAT
+
+Assess:
+
+-   Experience
+-   Expertise
+-   Authority
+-   Trustworthiness
+
+Evaluate:
+
+-   Author Signals
+-   Company Information
+-   Reviews
+-   Credentials
+-   Transparency
+
+Output:
+
+-   EEAT Score
+
+### Step A8 -- Google Quality Evaluation
+
+Determine:
+
+-   Purpose
+-   Originality
+-   Helpfulness
+-   Search Satisfaction
+
+Output:
+
+-   Overall Quality Score
+
+------------------------------------------------------------------------
+
+# Research Branch B -- Google Search Analysis
+
+## Objective
+
+Determine why Google currently prefers competing indexed pages over this
+page.
+
+**Do not perform:**
+
+-   Keyword Research
+-   People Also Ask Analysis
+-   Related Searches
+-   Autocomplete
+-   Keyword Expansion
+
+### Step B1 -- Determine Primary Search Query
+
+Infer the dominant search query using:
+
+-   URL
+-   Title
+-   H1
+-   Primary Entity
+-   Primary Service/Product
+-   Geographic Modifier (if applicable)
+
+Generate **one** primary search query.
+
+### Step B2 -- Google Search
+
+Search only using the inferred query.
+
+Collect:
+
+-   Top 10 Organic Results
+-   AI Overview Sources (if available)
+
+### Step B3 -- Collect Competitor Pages
+
+Extract:
+
+-   URL
+-   Title
+-   Headings
+-   Main Content
+-   Images
+-   Schema
+-   Internal Links
+-   External References
+-   Word Count
+-   Published Date
+-   Updated Date
+
+### Step B4 -- Competitor Analysis
+
+Analyse:
+
+#### Search Intent
+
+-   Informational
+-   Commercial
+-   Transactional
+-   Local
+-   Navigational
+
+#### Content Quality
+
+-   Originality
+-   Depth
+-   Structure
+-   Readability
+-   Freshness
+
+#### Semantic Coverage
+
+-   Entities
+-   Concepts
+-   Supporting Topics
+-   Services
+-   Products
+-   Locations
+
+#### Content Structure
+
+-   Headings
+-   Lists
+-   Tables
+-   Comparisons
+-   FAQs
+-   Processes
+-   Pricing
+-   Testimonials
+-   Case Studies
+
+#### Trust Signals
+
+-   Reviews
+-   Experience
+-   Certifications
+-   Guarantees
+-   Contact Information
+
+#### AI Readiness
+
+Evaluate whether the page is likely to be cited by AI systems.
+
+### Step B5 -- Pattern Detection
+
+Create a merged competitor profile.
+
+Identify:
+
+-   Common Headings
+-   Common Entities
+-   Common Sections
+-   Common FAQs
+-   Common Trust Signals
+-   Common Schema
+-   Common Media
+-   Average Word Count
+-   Average Heading Count
+-   Average Image Count
+-   Average Internal Links
+
+### Step B6 -- Competitive Gap Analysis
+
+Compare your page against the merged competitor profile.
+
+Identify:
+
+-   Missing Sections
+-   Missing Entities
+-   Missing Trust Signals
+-   Missing Supporting Topics
+-   Missing Semantic Relationships
+-   Missing Internal Linking Opportunities
+-   Missing Structured Data
+-   Missing Evidence
+
+### Step B7 -- Indexability Assessment
+
+Estimate:
+
+-   Current Index Probability
+-   Improved Index Probability
+-   Confidence Score
+
+------------------------------------------------------------------------
+
+# Intelligence Engine
+
+Merge Branch A and Branch B findings.
+
+Identify:
+
+-   Technical Deficiencies
+-   Content Deficiencies
+-   Semantic Deficiencies
+-   Trust Deficiencies
+-   Competitive Deficiencies
+
+Determine the strongest evidence explaining why Google has not indexed
+the page.
+
+------------------------------------------------------------------------
+
+# Root Cause Detection
+
+Classify the primary reason:
+
+-   Thin Content
+-   Duplicate Content
+-   Near Duplicate Content
+-   Weak Search Intent
+-   Weak Topical Coverage
+-   Weak Semantic Relevance
+-   Weak EEAT
+-   Low Originality
+-   Poor Internal Linking
+-   Crawl Inefficiencies
+-   Canonical Conflicts
+-   Technical Indexing Issues
+-   Stronger Competing Documents
+-   Low Overall Value
+
+Assign a confidence score to each detected cause.
+
+------------------------------------------------------------------------
+
+# Recommendation Engine
+
+## High Priority
+
+-   Rewrite primary content
+-   Expand topical depth
+-   Improve entity coverage
+-   Add missing sections
+-   Improve internal linking
+-   Resolve canonical issues
+-   Improve EEAT
+-   Add structured data
+
+## Medium Priority
+
+-   Improve imagery
+-   Add examples
+-   Add case studies
+-   Expand FAQs
+-   Improve formatting
+
+## Low Priority
+
+-   Improve readability
+-   Improve page speed
+-   Improve presentation
+
+------------------------------------------------------------------------
+
+# Final Deliverables
+
+## Executive Summary
+
+-   Overall Indexability Score
+-   Confidence Score
+-   Primary Root Cause
+-   Estimated Index Probability
+
+## Branch A Summary
+
+-   Technical SEO
+-   Content Quality
+-   Semantic SEO
+-   AEO
+-   GEO
+-   EEAT
+-   Google Quality
+
+## Branch B Summary
+
+-   Competitor Profile
+-   Search Landscape
+-   Competitive Gaps
+-   Missing Evidence
+-   Ranking Patterns
+
+## Root Cause Analysis
+
+Explain why Google is unlikely to index the page.
+
+## Prioritised Action Plan
+
+  Priority   Recommendation   Reason   Expected Impact   Difficulty
+  ---------- ---------------- -------- ----------------- ------------
+
+## Success Metrics
+
+-   Current Index Probability
+-   Estimated Index Probability After Improvements
+-   Confidence Level
