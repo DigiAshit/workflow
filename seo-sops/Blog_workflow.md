@@ -547,6 +547,27 @@ AI Overview readiness rules:
 - Do not over-optimize by stuffing many question variations.
 - Ensure the answer is supported by the full article.
 
+## Step 5.10: Plan Expert Quotes and Practitioner Insight
+
+Use expert quotes when they add a decision principle, firsthand experience, a useful disagreement, or implementation context that the article cannot establish as strongly on its own.
+
+For each planned quote, capture:
+
+| Expert | Credentials | Original Source | Exact Quote | Why It Helps | Placement |
+|---|---|---|---|---|---|
+|  |  |  |  |  |  |
+
+Rules:
+
+- Link to the original interview, article, presentation, video, podcast, research, or post.
+- Verify the exact wording and attribution.
+- Keep the quoted excerpt short and explain its practical meaning.
+- Prefer recognized practitioners with direct experience in the topic.
+- Do not use quote-roundup pages when the original source is available.
+- Do not add celebrity quotes, generic inspiration, or borrowed authority that does not help the reader.
+- Do not imply the expert endorses the article, product, or company.
+- Follow source quotation and copyright limits.
+
 ---
 
 # Phase 6: Article Thesis and Unique Angle
@@ -604,6 +625,7 @@ Every outline must include:
 - Main sections based on SERP teardown and gap map
 - Tactical substeps
 - Common questions and concise answer sections
+- Expert quotes or practitioner insight where they add real authority or experience
 - Examples
 - Visual placements
 - Statistical data points and data visual placements
@@ -935,7 +957,26 @@ Before publishing, answer:
 - Is the article written for the target audience, not only for search engines?
 - Are common questions answered directly and accurately where they naturally fit?
 
-## Step 13.2: Experience and Trust Gate
+## Step 13.2: Reader Journey Gate
+
+Review the article as a continuous journey from the reader's starting state to the intended outcome.
+
+Answer:
+
+- What is the reader's point A: current problem, uncertainty, or unfinished task?
+- What is the reader's point Z: decision, deliverable, skill, or completed action?
+- Does the opening promise that exact outcome?
+- Does each section remove one obstacle or answer the next natural question?
+- Are prerequisites introduced before advanced steps?
+- Do examples, visuals, quotes, data, and videos appear where the reader needs them?
+- Does the article include a usable output such as a template, checklist, comparison, process, or decision framework when the intent requires one?
+- Are transitions clear enough that the article feels like one guided experience rather than disconnected sections?
+- Does the ending provide the next action and explain what happens after the reader completes it?
+- Could the reader complete the intended task without returning to the SERP for a missing step?
+
+If the article contains useful sections but fails this journey, restructure it before polishing sentences.
+
+## Step 13.3: Experience and Trust Gate
 
 Check:
 
@@ -951,6 +992,7 @@ Check:
 - Transparent limitations
 - Accurate business information
 - Clear separation between fact, recommendation, and opinion
+- Expert quotes are verified, relevant, linked to original sources, and interpreted for the reader
 
 For high-risk topics, use expert review.
 
@@ -963,10 +1005,13 @@ Score the article before publishing:
 | Criteria | Target Score |
 |---|---|
 | Intent match | 9/10 |
+| Reader journey completeness | 9/10 |
+| Point A-to-Z task completion | 9/10 |
 | SERP competitiveness | 8/10 |
 | Original value | 8/10 |
 | Practical depth | 8/10 |
 | Evidence quality | 8/10 |
+| Expert insight relevance | 8/10 when expert quotes are used |
 | Data/statistics usefulness | 8/10 |
 | Visual usefulness | 8/10 |
 | Video relevance | 8/10 when videos are used |
