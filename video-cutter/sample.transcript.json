@@ -1,0 +1,40 @@
+{
+  "language": "en",
+  "duration": 5.0,
+  "segments": [
+    {
+      "start": 0.2,
+      "end": 1.0,
+      "text": "Hello this is the test,",
+      "words": [
+        {"start": 0.2, "end": 0.36, "word": "Hello", "probability": 0.95},
+        {"start": 0.36, "end": 0.52, "word": "this", "probability": 0.95},
+        {"start": 0.52, "end": 0.66, "word": "is", "probability": 0.95},
+        {"start": 0.66, "end": 0.82, "word": "the", "probability": 0.95},
+        {"start": 0.82, "end": 1.0, "word": "test,", "probability": 0.95}
+      ]
+    },
+    {
+      "start": 1.8,
+      "end": 2.8,
+      "text": "Hello this is the better test.",
+      "words": [
+        {"start": 1.8, "end": 1.96, "word": "Hello", "probability": 0.96},
+        {"start": 1.96, "end": 2.12, "word": "this", "probability": 0.96},
+        {"start": 2.12, "end": 2.26, "word": "is", "probability": 0.96},
+        {"start": 2.26, "end": 2.42, "word": "the", "probability": 0.96},
+        {"start": 2.42, "end": 2.62, "word": "better", "probability": 0.96},
+        {"start": 2.62, "end": 2.8, "word": "test.", "probability": 0.96}
+      ]
+    },
+    {
+      "start": 3.8,
+      "end": 4.4,
+      "text": "Final line.",
+      "words": [
+        {"start": 3.8, "end": 4.05, "word": "Final", "probability": 0.98},
+        {"start": 4.05, "end": 4.4, "word": "line.", "probability": 0.98}
+      ]
+    }
+  ]
+}
